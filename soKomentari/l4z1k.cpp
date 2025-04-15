@@ -55,7 +55,7 @@ void funk(queue &q){//2 isti suma, >2 i paren isfrla, >2 i neparen 1 element so 
         do{//do while zasho ako e clen shto nema ist do nego br da bide 1
             n=q.izvadi();//se vadi 1 clen
             br++;//se brojat kolku isti clenovi ima
-        }while(!q.iEmp() && n==q.dze());//isto za da nema underflow,clenot shto go izvadivme go sporeduvame so 
+        }while(!q.iEmp() && n==q.dze());//za da nema underflow,clenot shto go izvadivme go sporeduvame so 
         //sledniot
         if(br==2)q1.dodadi(n*2);//ako e par se dodava sumata
         else if(br%2!=0)q1.dodadi(n);//ako e neparen broj samo se dodava, vazi i za ako e 1 clen nemora posebeben
